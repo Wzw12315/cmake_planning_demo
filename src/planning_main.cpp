@@ -3,7 +3,7 @@
 #include"show_result.h"
 using std::cout,std::endl;
 
-int main()
+int main(int argc, char** argv)
 {
     cout<<"planing start"<<endl;
     Process pro;

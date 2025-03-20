@@ -6,6 +6,7 @@ project(planning
     LANGUAGES CXX
 )
 set(CMAKE_CXX_STANDARD 17)
+enable_testing()
 
 #变量和目录设置
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
@@ -28,3 +29,4 @@ endif()
 
 #添加子目录
 add_subdirectory(src)
+add_subdirectory(test/map_test) #注意这里的反斜杠转义
