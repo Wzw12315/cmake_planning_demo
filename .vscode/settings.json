@@ -49,6 +49,10 @@
         "memory_resource": "cpp",
         "numeric": "cpp",
         "random": "cpp",
-        "utility": "cpp"
-    }
+        "utility": "cpp",
+        "cstdarg": "cpp",
+        "fstream": "cpp",
+        "sstream": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
 }
